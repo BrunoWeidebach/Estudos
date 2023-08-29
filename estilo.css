@@ -78,5 +78,17 @@ body {
   
  }
    
- 
+ @media screen and (max-width: 600px) {
+    /* Reduzir margens para melhor aproveitamento do espaço */
+    section {
+        padding: 10px;
+    }
+
+    /* Ajustar tamanho da fonte dos botões */
+    #botaoInjetar,
+    #botaoTpc,
+    .botao-audio {
+        font-size: 14px;
+    }
+}
  
