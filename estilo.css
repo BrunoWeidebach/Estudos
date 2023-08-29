@@ -96,4 +96,23 @@ body {
     float: left;
     margin: 5px;
 }
- 
+ .barra-progresso {
+    width: 150px;
+    height: 33px;
+    background-color: whitesmoke;
+   border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+ }
+ .barra-preenchimento {
+    margin-top: -28px;
+    height: 100%;
+    width: 0%;
+    background: #e7cc53;
+    border-radius: 10px;  
+    border-style:ridge;
+    transition: width 0.5s ease-in-out;
+    border-color:burlywood;
+    max-width: 100%;
